@@ -22,14 +22,14 @@ namespace Vsite.CSharp
             Debug.Assert(sd.ToString() == "2.1.2016");
             Console.WriteLine(sd);
 
-            
+
             Console.WriteLine("KlasaDatum:");
 
             KlasaDatum kd = new KlasaDatum(2016, 2, 28);
 
             KlasaDatum kd2 = ++kd;
             Console.WriteLine(kd2);
-            
+
             KlasaDatum kd3 = kd++;
             Console.WriteLine(kd3);
 

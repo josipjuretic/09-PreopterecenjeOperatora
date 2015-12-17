@@ -3,7 +3,8 @@
     // primjer pretvorbe u druge tipove i eksplicitne pretvorbe
     struct Racionalni
     {
-        public Racionalni(long brojnik = 0, long nazivnik = 1) : this()
+        public Racionalni(long brojnik = 0, long nazivnik = 1)
+            : this()
         {
             Brojnik = brojnik;
             Nazivnik = nazivnik;

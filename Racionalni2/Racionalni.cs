@@ -4,7 +4,8 @@
 
     struct Racionalni
     {
-        public Racionalni(long brojnik = 0, long nazivnik = 1) : this()
+        public Racionalni(long brojnik = 0, long nazivnik = 1)
+            : this()
         {
             Brojnik = brojnik;
             Nazivnik = nazivnik;
@@ -30,7 +31,7 @@
         // TODO: Prekopirati traženi operator konverzije iz strukture Racionalni u projektu Racionalni1
 
 
-        
+
         // TODO: Dodati operator implicitne konverzije iz long u Racionalni
 
 
